@@ -5,6 +5,7 @@
              x:Class="CompacctDiagraph.MainPage">
     <ContentPage.Content>
         <StackLayout>
+            <Image HorizontalOptions="Center" Source="Comp_Login_Logo.png" Margin="0,0,0,50" ></Image>
             <Label Text="Login Name" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" />
             <Entry x:Name="txt_User_Name" HorizontalOptions="StartAndExpand" ></Entry>
             <Label Text="Password" HorizontalOptions="StartAndExpand" />
