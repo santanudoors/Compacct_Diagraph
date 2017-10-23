@@ -5,9 +5,10 @@
              x:Class="CompacctDiagraph.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Login Name" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" />
+            <Entry x:Name="txt_User_Name" HorizontalOptions="StartAndExpand" ></Entry>
+            <Label Text="Password" HorizontalOptions="StartAndExpand" />
+            <Entry x:Name="txt_Password" IsPassword="True" HorizontalOptions="StartAndExpand" ></Entry>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
